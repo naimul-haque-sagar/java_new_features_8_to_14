@@ -10,11 +10,11 @@ interface Interface1{
     }
 }
 
-public class Default_Static_Method1 implements Interface1{
+public class Default_And_Static_Method1 implements Interface1{
     public static void main(String[] args) {
-        Default_Static_Method1 default_static_method1=new Default_Static_Method1();
-        default_static_method1.printDetails();
-        default_static_method1.printName();
+        Default_And_Static_Method1 default_And_static_method1 =new Default_And_Static_Method1();
+        default_And_static_method1.printDetails();
+        default_And_static_method1.printName();
 
         Interface1.className();
     }

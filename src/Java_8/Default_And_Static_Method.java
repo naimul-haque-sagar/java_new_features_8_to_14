@@ -22,12 +22,12 @@ interface GreenCar{
     }
 }
 
-public class Default_Static_Method implements RedCar,GreenCar{
+public class Default_And_Static_Method implements RedCar,GreenCar{
     public static void main(String[] args) {
-        Default_Static_Method default_static_method=new Default_Static_Method();
-        default_static_method.printDetails();
-        default_static_method.printClassName();
-        default_static_method.printCarName();
+        Default_And_Static_Method default_And_static_method =new Default_And_Static_Method();
+        default_And_static_method.printDetails();
+        default_And_static_method.printClassName();
+        default_And_static_method.printCarName();
 
         RedCar.classDetails();
         GreenCar.classDetails();
